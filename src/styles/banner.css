@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Banner1{
+    background-color: #def1f9;
+    padding: 20px;
+    width:100%;
+}
+.king{
+    display: flex;
+    flex-direction: column;
+}
+.king h1{
+    color: #1E3673;
+    font-family: var(--Roboto);
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 137.188%;
+        
+}
+.king p{
+    color: #1E3673;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        
+}
+.Banner1 button{
+    border-radius: 15px;
+    border: none;
+    width: 110px;
+    height: 50px;
+    margin-left: 10px;
+        background: #2F98C2;
+        color: #DEF1F9;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+}
+
+
+.Banner2{
+    background-color: #BEECFF;
+    width:100%;
+    height: 50%;
+padding-bottom: 120px;
+
+}
+.Banner2 img{
+padding-top: 50px;
+}
+.Banner2 h1{
+    font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        color: #1E3673;
+        padding-left: 20px;
+        padding-bottom: 20px;
+}
+.Banner2 p{
+    font-family: Roboto;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: justify;
+        padding-left:20px ;
+        padding-bottom:20px ;
+        color: #1E3673;
+        
+}
+.Banner2 button{
+    width: 119px ;
+    height: 39px;
+    border-radius: 20px;
+    border: none;
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0em;
+        color: #1E3673;
+        margin-left: 20px;
+        margin-top: -20%;
+}
+.Desktop{
+background-color: #DEF1F9;
+    width: 100%;
+}
+.desktop-banner{
+    display: flex;
+}
+.writting{
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+.writting h1{
+    font-family: var(--Roboto);
+    color: #1E3673;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+padding-bottom: 20px; 
+}
+.writting p{
+    font-family: var(--Roboto);
+    color: #1E3673;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+padding-bottom: 15px;
+}
+.writting button{
+width: 132px;
+height: 48px;
+background-color: #2F98C2;
+color: #FFFFFF;
+font-family: var(--Roboto);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+border-radius: 15px;
+}
+.shaped-color{
+    display: flex;
+    justify-content: end;
+    background-image: linear-gradient(164deg, #2F98C2 0%, rgba(222, 241, 249, 0.00) 100%);;
+    width: 95%;
+    height: 210px;
+    border-radius: 50px;
+position: relative;
+bottom: 12.5%;
+left: 20px;
+}
+.doctor-image img{
+position: relative;
+left: 15%;
+top: 16.8%;
+width: 400px;
+z-index: 2;
+}
+.doc-name h1,b {
+    position: relative;
+    left: 65%;
+    top: 20%;
+/* margin-right: -180px; */
+}
+.doc-name h1{
+    color: #FFF;
+    font-family: var(--Roboto);
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.doc-name b{
+    color: #707173;
+    font-family: var(--Roboto);
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.btn button{
+position: relative;  
+right: 40%;
+top: 60%;
+    width: 243px;
+height: 60px;
+flex-shrink: 0;
+border: none;
+border-radius: 20px;
+background: #FFF;
+color: #1E3673;
+text-align: center;
+font-family: var(--Roboto);
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+@media (max-width:1440px) {
+    .Desktop{
+        height: 500px;
+    }
+    
+    .doctor-image img{
+position: relative;
+left: 15%;
+top: 21.8%;
+width: 400px;
+z-index: 2;
+}
+.shaped-color{
+    display: flex;
+    justify-content: end;
+    background-image: linear-gradient(164deg, #2F98C2 0%, rgba(222, 241, 249, 0.00) 100%);;
+    width: 95%;
+    height: 240px;
+    border-radius: 50px;
+position: relative;
+bottom: 11.5%;
+left: 20px;
+}
+
+}
+
+
+
+
+
+@media (min-width:700px) {
+    .Banner1{
+    background-color: #def1f9;
+    padding-top: 20px;
+    width:100%;
+    text-align: center;
+    }
+.Banner2{
+    height: 85vh;
+    padding-top: 5%;
+    display: flex;
+flex-direction: row-reverse;   
+ justify-content: space-evenly;
+}
+     .Q2{
+        margin-top: 2%;
+}
+.Q2 h1{
+    text-align: center;
+    font-size: 25px;
+}
+.Q2 p{
+    font-size: 15px;
+    line-height: 25px;
+}
+}
+@media (min-width:900px) {
+    .Banner1{
+        display: none;
+    }
+    .Desktop{
+        height: 120vh;
+    }
+    .Banner2{
+        height: 90vh;
+    }
+}
+@media (max-width:1000px) {
+    .Desktop{
+        display: none;
+
+    }
+    .Banner1{
+        display: block;
+    }
+    
+}

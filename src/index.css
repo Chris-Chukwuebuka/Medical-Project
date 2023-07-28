@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+:root{
+--Roboto:var('Roboto',
+    sans-serif;)
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bb{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+@media (min-width:320px) {
+    .bb{
+        width: 105vw;
+    }
+}
+
+@media (min-width:768px) {
+    .bb{
+        height: 100%;
+        padding-bottom:25px ;
+        width: 110vw;
+    }
+}
+@media (min-width:1024px) {
+    .bb{
+        width: 180vw;
+    }
+}
